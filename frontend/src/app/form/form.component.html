@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <!-- Add/Edit Employee Form Container -->
+    <div class="dialog-container">
+        <h2>Formulaire Formation</h2>
+
+        <form>
+            <!-- Form Content -->
+            <div>
+                <div>
+                    <label for="ministere">Ministère:</label>
+                    <input type="text" id="ministere" name="ministere">
+                </div>
+                <div>
+                    <label for="entreprise">Entreprise:</label>
+                    <input type="text" id="entreprise" name="entreprise">
+                </div>
+
+                <div>
+                    <label for="application">Application:</label>
+                    <input type="text" id="application" name="application">
+                </div>
+            </div>
+            <div>
+                <label for="dateLimiteFormation">Date réelle formation:</label>
+                <input type="date" id="dateLimiteFormation" name="dateLimiteFormation">
+            </div>
+            <div>
+                <label for="nom">Formateur</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div>
+                <label for="tel">Nombre de participants</label>
+                <input type="number" id="tel" name="tel">
+            </div>
+                <div class="form-group">
+                    <label for="realise">Réalisé:</label>
+                    <div class="radio-options">
+                        <label class="radio-option">
+                            <input type="radio" id="realise-oui" name="realise" value="oui">
+                            <span class="radiomark"></span> Oui
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" id="realise-non" name="realise" value="non">
+                            <span class="radiomark"></span> Non
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="portable">Remaraque(daca/cfd)</label>
+                    <input type="text" id="portable" name="portable">
+                </div>
+                <div>
+                    <label for="reference">Etat final BC</label>
+                    <input type="text" id="reference" name="reference">
+                </div>
+
+
+               
+               
+                
+            
+
+
+
+            <!-- Form Actions -->
+            <div class="action-btns">
+                <button type="submit">Valider et envoyer</button>
+                <button type="button" routerLink="/daca">Annuler</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+  

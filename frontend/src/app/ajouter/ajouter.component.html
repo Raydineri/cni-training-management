@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+   
+    <div class="dialog-container">
+        <h2>Formulaire Formation</h2>
+
+        <form>
+            <div>
+                <div>
+                    <label for="ministere">Ministère:</label>
+                    <input [(ngModel)]="dossier.ministere" type="text" id="ministere" name="ministere">
+                </div>
+                <div>
+                    <label for="entreprise">Entreprise:</label>
+                    <input [(ngModel)]="dossier.entreprise" type="text" id="entreprise" name="entreprise">
+                </div>
+                <div>
+                    <label for="application">Application:</label>
+                    <input [(ngModel)]="dossier.application" type="text" id="application" name="application">
+                </div>
+            </div>
+            <div>
+                <label for="nom">NOM vis-à-vis:</label>
+                <input [(ngModel)]="dossier.nom_vis_a_vis" type="text" id="nom" name="nom">
+            </div>
+            <div>
+                <label for="tel">Tel vis-à-vis:</label>
+                <input [(ngModel)]="dossier.tel_vis_a_vis" type="text" id="tel" name="tel">
+            </div>
+            <div>
+                <label for="portable">Portable vis-à-vis client:</label>
+                <input [(ngModel)]="dossier.portable_vis_a_vis" type="text" id="portable" name="portable">
+            </div>
+            <div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input [(ngModel)]="dossier.email" type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="reference">Reference BC:</label>
+                    <input [(ngModel)]="dossier.reference_bc" type="text" id="reference" name="reference">
+                </div>
+                <div>
+                    <label for="dateBC">Date BC:</label>
+                    <input [(ngModel)]="dossier.date_bc" type="date" id="dateBC" name="dateBC">
+                </div>
+                <div>
+                    <label for="dateBOBC">Date B.O BC:</label>
+                    <input [(ngModel)]="dossier.date_bo_bc" type="date" id="dateBOBC" name="dateBOBC">
+                </div>
+                <div>
+                    <label for="dateLivraison">Date livraison:</label>
+                    <input [(ngModel)]="dossier.date_livraison" type="date" id="dateLivraison" name="dateLivraison">
+                </div>
+                <div>
+                    <label for="dateLimiteFormation">Date limite formation:</label>
+                    <input [(ngModel)]="dossier.date_limite_formation" type="date" id="dateLimiteFormation" name="dateLimiteFormation">
+                </div>
+                <div>
+                    <label for="remarque">Remaraque(daca/cfd)</label>
+                    <input [(ngModel)]="dossier.remarque" type="text" id="remarque" name="remarque">
+                  </div>
+            </div>
+        
+
+
+
+            <!-- Formulaire Actions -->
+            <div class="action-btns">
+                <button (click)="ajouter()" type="submit">Valider et envoyer</button>
+                <button type="button" routerLink="/daca">Annuler</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+  

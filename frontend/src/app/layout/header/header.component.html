@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" >CNI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item" *ngIf="_auth.isLoggedIn()==true">
+                <a class="nav-link active" aria-current="page" [routerLink]="['/user',_auth.getUserDataFromToken()._id]">Mon compte</a>
+              </li>
+              <li class="nav-item" *ngIf="_auth.isLoggedIn() && _auth.getUserTypeFromToken()=='dacaUser'"><a class="nav-link" [routerLink]="['/daca']">DACA</a>
+              </li>
+              <li class="nav-item"*ngIf="_auth.isLoggedIn()==true && _auth.getUserTypeFromToken()=='ufrUser'">
+                <a class="nav-link" [routerLink]="['/ufr']">UFR</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <ul class="nav nav-tabs">
+        <li  *ngIf="_auth.isLoggedIn() && _auth.getUserTypeFromToken()=='dacaUser'"><a class="nav-link" [routerLink]="['/daca']">Liste des dossiers de formation</a>
+        </li>
+        <li  *ngIf="_auth.isLoggedIn() && _auth.getUserTypeFromToken()=='ufrUser'"><a class="nav-link" [routerLink]="['/ufr']">Liste des dossiers de formation</a>
+        </li>
+        <li class="nav-item"*ngIf="_auth.isLoggedIn()==true">
+          <a class="nav-link " routerLink="/dossierrecudaca">Boite de reception  </a>
+        </li>
+        <li class="nav-item"*ngIf="_auth.isLoggedIn()==true">
+          <a class="nav-link" routerLink="/dossierenvoyedaca">Dossiers envoyés</a>
+        </li>
+        <li class="nav-item"*ngIf="_auth.isLoggedIn()==true">
+          <a class="nav-link " (click)="logout()">log out</a>
+        </li>
+      </ul>
+</body>
+</html>

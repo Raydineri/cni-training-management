@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dossier envoyé DACA</title>
+    
+  </head>
+  <body>
+  
+
+
+  
+
+    <div class="main-body">
+      
+      
+   
+      <div class="filter-container">
+        <label class="filter-label">Filtrer</label>
+        <input class="filter-input" type="text" placeholder="Exemple:cni">
+    </div>
+  
+      <div class="table-container">
+        <table>
+     
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Ministère</th>
+              <th>Entreprise</th>
+              <th>Application</th>
+            <!--<th>Nom vis-à-vis</th>
+              <th>Tel vis-à-vis</th>
+              <th>Portable vis-à-vis client</th>
+              <th>Mail</th>
+              <th>Reference BC</th>
+              <th>Date BC</th>
+              <th>Date B.O BC </th>
+              <th>Date livraison</th>
+              <th>Date limite formation</th> -->
+              <th>date de creation </th>
+              <th>etat</th>
+              <th>action</th>
+            </tr>
+            
+              <tr>
+              
+             
+           
+           </tr>
+           <tr>
+            <td><a href="dossier.html" class="link">1</a></td>
+            <td>Technologies de la communication </td>
+            <td>TUNISIE TELECOM </td>
+            <td>MADANIA </td>
+            <td>22/01/12</td>
+            <td>Cher UFR</td>
+            <td>
+              <button routerLink="/dossier"  class="my-button">
+                <i class="fa fa-edit"></i> 
+              </button>
+              
+              <button class="my-button">
+                <i class="fa fa-trash red-icon"></i> 
+              </button>
+              <button class="my-button">
+                <i class="fa dark-icon">C</i> 
+              </button>
+              
+            </td>
+            
+           </tr>
+           <tr>
+            <td><a href="dossier.html" class="link">2</a></td>
+            <td>Ministère de l'Éducation </td>
+            <td>CNP </td>
+            <td>Amétis </td>
+            <td>01/09/21</td>
+            <td>Retour UFR</td>
+            <td>
+              <button routerLink="/dossier"  class="my-button">
+                <i class="fa fa-edit"></i> 
+              </button>
+              
+              <button class="my-button">
+                <i class="fa fa-trash red-icon"></i> 
+              </button>
+              <button class="my-button">
+                <i class="fa dark-icon">C</i> 
+              </button>
+              
+            </td>
+           </tr>
+           
+          </thead>
+  
+      
+          <tbody>
+          
+          </tbody>
+  
+       
+        </table>
+  
+
+        <div style="margin-top: 20px;">
+       
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    
+      function openAddEditEmployeeDialog() {
+     
+        console.log('Open Add/Edit Employee Dialog');
+      }
+  
+      function applyFilter(event) {
+    
+        console.log('Filter Applied:', event.target.value);
+      }
+    </script>
+    
+    
+  </body>
+  </html>
+  
+
+
+
+  
+  
