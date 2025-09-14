@@ -246,4 +246,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ---
 
-**Note**: This system was developed as part of an internship project for CNI to streamline the training management process between different departments. The application focuses on security, usability, and efficient workflow management.
+**Note**: This system was developed as part of an internship project for **CNI** to streamline the training management process between different departments. The application focuses on security, usability, and efficient workflow management.
