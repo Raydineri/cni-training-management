@@ -236,7 +236,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## 👥 Authors
 
-- **Rayen Ben othman** - *Initial work* - [YourGitHub](https://github.com/Raydineri)
+- **Rayen Ben othman** - [Raydineri](https://github.com/Raydineri)
 
 ## 🙏 Acknowledgments
 
