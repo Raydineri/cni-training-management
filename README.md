@@ -1,5 +1,10 @@
 # CNI Training Management System
 
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
 A comprehensive training management system developed for CNI (Centre National de l'Informatique) using the MEAN stack (MongoDB, Express.js, Angular, Node.js). This system facilitates the management of training dossiers between DACA (Direction des Applications et de la Cybersécurité Administrative) and UFR (Unité de Formation et de Recherche) departments.
 
 ## 📋 Table of Contents
