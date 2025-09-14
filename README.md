@@ -3,16 +3,18 @@
 A comprehensive training management system developed for CNI (Centre National de l'Informatique) using the MEAN stack (MongoDB, Express.js, Angular, Node.js). This system facilitates the management of training dossiers between DACA (Direction des Applications et de la Cybersécurité Administrative) and UFR (Unité de Formation et de Recherche) departments.
 
 ## 📋 Table of Contents
-- Features
-- Tech Stack
-- Prerequisites
-- Installation
-- Project Structure
-- API Endpoints
-- Usage
-- Screenshots
-- Contributing
-- License
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [API Endpoints](#-api-endpoints)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Authors](#-authors)
+- [Acknowledgments](#-acknowledgments)
 
 ## ✨ Features
 
